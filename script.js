@@ -11,12 +11,10 @@ document.addEventListener("mousemove", (e)=>{
 const header = document.querySelector('header')
 const loader = document.querySelector('.loader')
 
-const tween = gsap.to('.loader',{
+const loaderFunc = () =>{
+  const tween = gsap.to('.loader',{
   transform: "translateY(-100%)"
 })
-
-const loaderFunc = () =>{
-  tween.play()
 }
 
 gsap.to('header',{
