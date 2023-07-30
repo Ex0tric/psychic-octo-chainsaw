@@ -6,10 +6,10 @@
   <title>Sidcup Family Golf</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body onload="loaderFunc()" class="position-relative">
+<body onload="myfunc()" class="position-relative">
   <div class="cursor"></div>
   <div class="cursor-bg"></div>
   <video src="hero.mp4" autoplay muted loop></video>
@@ -39,11 +39,11 @@
           </div>
           <div class="navigation-menu">
             <ul class="list-unstyled d-flex mb-0 navigation-list">
-              <li>Toptracer Range</li>
-              <li>Golf Lessons</li>
-              <li>Adventure Golf</li>
-              <li>Café</li>
-              <li>Events</li>
+              <li class="cursur-change">Toptracer Range</li>
+              <li class="cursur-change">Golf Lessons</li>
+              <li class="cursur-change">Adventure Golf</li>
+              <li class="cursur-change">Café</li>
+              <li class="cursur-change">Events</li>
             </ul>
           </div>
         </div>
@@ -68,22 +68,22 @@
             <div class="col">
               <div class="scrolling-text">
                 <h4 class="scroller scroller-1">
-                  <span class="text-hover">Toptracer Range</span>
-                  <span class="text-hover">Golf Lessons</span>
-                  <span class="text-hover">Crazy Golf</span>
-                  <span class="text-hover">Coffee Shop</span>
+                  <span class="text-hover cursur-change">Toptracer Range</span>
+                  <span class="text-hover cursur-change">Golf Lessons</span>
+                  <span class="text-hover cursur-change">Crazy Golf</span>
+                  <span class="text-hover cursur-change">Coffee Shop</span>
                 </h4>
                 <h4 class="scroller scroller-2">
-                  <span class="text-hover">Toptracer Range</span>
-                  <span class="text-hover">Golf Lessons</span>
-                  <span class="text-hover">Crazy Golf</span>
-                  <span class="text-hover">Coffee Shop</span>
+                  <span class="text-hover cursur-change">Toptracer Range</span>
+                  <span class="text-hover cursur-change">Golf Lessons</span>
+                  <span class="text-hover cursur-change">Crazy Golf</span>
+                  <span class="text-hover cursur-change">Coffee Shop</span>
                 </h4>
                 <h4 class="scroller scroller-3">
-                  <span class="text-hover">Toptracer Range</span>
-                  <span class="text-hover">Golf Lessons</span>
-                  <span class="text-hover">Crazy Golf</span>
-                  <span class="text-hover">Coffee Shop</span>
+                  <span class="text-hover cursur-change">Toptracer Range</span>
+                  <span class="text-hover cursur-change">Golf Lessons</span>
+                  <span class="text-hover cursur-change">Crazy Golf</span>
+                  <span class="text-hover cursur-change">Coffee Shop</span>
                 </h4>
               </div>
             </div>
@@ -108,7 +108,7 @@
     <section class="features-section">
       <div class="container">
         <div class="row gx-5">
-          <div class="col-4">
+          <div class="col-4 cursur-change">
             <div class="feature-card feature-card-1 h-100">
               <div class="card-inner-1  h-100 d-flex align-items-end">
                 <h3 class="card-heading mb-0">TOPTRACER RANGE</h3>
@@ -122,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 cursur-change">
             <div class="feature-card feature-card-2 h-100">
               <div class="card-inner-1  h-100 d-flex align-items-end">
                 <h3 class="card-heading mb-0">Adventure Golf</h3>
@@ -136,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 cursur-change">
             <div class="feature-card feature-card-3 h-100">
               <div class="card-inner-1  h-100 d-flex align-items-end">
                 <h3 class="card-heading mb-0">Golf Lessons</h3>
@@ -152,16 +152,117 @@
         </div>
       </div>
     </section>
-    <section class="offers-section">
+    <section class="offers-section section-padding">
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-3"><img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt=""></div>
-          <div class="col-6">sf</div>
-          <div class="col-3"></div>
+          <div class="col-2"><img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" class="position-absolute top-0 start-0 offers-image"></div>
+          <div class="col-8 text-center">
+            <h3 class="offers-heading">Sign up for Sidcup News and Special Offers <br>
+              Straight to Your Inbox</h3>
+          </div>
+          <div class="col-2">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg" alt="" class="offers-image position-absolute top-0 end-0">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="food-and-drink-section section-padding">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/cafe-menu.jpg" class="img-fluid food-image" alt="" >
+          </div>
+          <div class="col-md-6  ps-5">
+            <h4 class="food-heading">Food And Drink</h4>
+            <p class="food-paragraph mb-4">Whether you’re getting ready to play, just finishing your practice session or feeling peckish on the range, we have a variety of food and drink options bought directly to your table or bay.</p>
+            <p class="food-paragraph">We make sure that we cater for everyone, offering a range of vegan and gluten free options.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review-section section-padding ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-9 position-relative section-padding">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" alt="" class="quote-icons quote-left position-absolute top-0 end-100">
+            <h4 class="review text-white text-center">Great facilities — loads of bays in the driving range with many coloured targets to aim for and a ball tracking monitor to see if you’re getting close.</h4>
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg" alt="" class="quote-icons position-absolute start-100 end-0 quote-right">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="what-r-you-waiting-for-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <h3 class="waiting-heading"  style="margin-bottom: -120px;" >WHAT ARE YOU WAITING FOR?</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 bottom-card-wrap cursur-change">
+            <div class="bottom-card toptracer-card">
+              <h3 class="bottom-card-heading">TOPTRACER RANGE</h3>
+            </div>
+          </div>
+          <div class="col-4 bottom-card-wrap cursur-change">
+            <div class="bottom-card lessons-card">
+              <h3 class="bottom-card-heading">GOLF LESSONS</h3>
+            </div>
+          </div>
+          <div class="col-4 bottom-card-wrap cursur-change">
+            <div class="bottom-card adventure-card">
+              <h3 class="bottom-card-heading">ADVENTURE GOLF</h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </div>
+  <footer class="section-padding-top">
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-2">
+          <div class="logo-wrap cursur-change">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="logo">
+          </div>
+          <div class="social-icons-wrap d-flex gap-3 pt-4">
+            <i class="ri-facebook-box-fill social-icons cursur-change"></i>
+            <i class="ri-instagram-fill social-icons cursur-change"></i>
+            <i class="ri-twitter-x-line social-icons cursur-change"></i>
+          </div>
+        </div>
+        <div class="col-4">
+          <ul class="footer-links list-unstyled">
+            <li class="cursur-change">Toptracer Range</li>
+            <li class="cursur-change">Golf Lessons</li>
+            <li class="cursur-change">Adventure Golf</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul class="footer-links list-unstyled">
+            <li class="cursur-change">Café</li>
+            <li class="cursur-change">Events</li>
+            <li class="cursur-change">Contact Us</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <p class="address mb-0 cursur-change">A20, Sidcup Bypass <br>
+            Chislehurst <br>
+            Kent <br>
+            BR7 6RP</p>
+            <p class="mb-0"><span class="telephone">Tel: </span><span class="number cursur-change">0208 309 0181</span></p>
+            <p class="get-direction cursur-change">Get Directions</p>
+        </div>
+      </div>
+      <div class="row pb-4 pt-5">
+        <div class="col d-flex justify-content-between">
+          <p class="mb-0 text-black copyright cursur-change">Copyright © 2023 Adventure Leisure Ltd. All rights reserved. | Privacy Policy | Terms And Conditions | Gender Pay Gap
+        </p>
+        <p class="mb-0 copyright text-black cursur-change">Developed by Kunal</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="script.js"></script>
