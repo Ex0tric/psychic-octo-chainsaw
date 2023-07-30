@@ -12,7 +12,7 @@ const header = document.querySelector('header')
 const loader = document.querySelector('.loader')
 
 const loaderFunc = () =>{
-  const tween = gsap.to('.loader',{
+  gsap.to('.loader',{
   transform: "translateY(-100%)"
 })
 }
